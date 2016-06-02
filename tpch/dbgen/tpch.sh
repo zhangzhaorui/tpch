@@ -1,7 +1,7 @@
 #!/bin/sh
 
 RESULTS=$1
-
+export GPINST=TPCHTEST
 eval DBNAME=\$BSI_${GPINST}_NAME
 eval USER=\$BSI_${GPINST}_USER
 eval HOST=\$BSI_${GPINST}_HOST
